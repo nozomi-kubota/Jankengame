@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>じゃんけんアプリ</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <h1 class="page-title">じゃんけんアプリ</h1>
+
+    <div class="box">
+      <p>あなたの手の【グー／チョキ／パー】からボタンを１つクリックすると</p>
+      <p> じゃんけんができます。</p>
+      <div class="box-item">
+        <span class="box-title">あなたの手：</span>
+        <button id="btn1" class="form-control">グー</button>
+        <button id="btn2" class="form-control">チョキ</button>
+        <button id="btn3" class="form-control">パー</button>
+        <p></p>
+      </div>
+      <span class="box-title">あなたの手がクリックしたのは？：</span>
+      <button id="yourhd" class="form-control">？</button>            
+      <div class="box-item">
+        <span class="box-title">コンピューターの手：</span>
+        <button id="btn4" class="form-control">グー・チョキ・パーをクリック時に更新されます</button>
+        <p id="PCnm"></p>
+        <p></p>
+      </div>
+    </div>
+
+
+    <div  id="result" class="text-center result">
+      結果は・・・
+      <button id="resultbtn" class="form-control">
+        こちらに表示されます</button>
+      <p></p>
+
+
+    </div>
+
+    <div>
+    
+    </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
